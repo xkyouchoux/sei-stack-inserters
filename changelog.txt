@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 2 March 2026
+  Changes:
+    - [aai-loaders] Changed to respect aai-loaders belt stacking mode setting to only modify them if it is set to 'off'
+---------------------------------------------------------------------------------------------------
 Version: 1.0.8
 Date: 17 January 2026
   Changes:

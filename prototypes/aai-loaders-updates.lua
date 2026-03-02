@@ -1,5 +1,7 @@
 if not mods["aai-loaders"] then return end
 
+if settings.startup["aai-loaders-belt-stacking-mode"] and settings.startup["aai-loaders-belt-stacking-mode"].value ~= "off" then return end
+
 if settings.startup["sei-add-stacking-to-aai-loaders"].value and not (settings.startup["aai-loaders-mode"].value == "graphics-only") then
     for k,v in pairs(data.raw["loader-1x1"]) do
         if k:find("aai-") == 1 then
